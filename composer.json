@@ -28,8 +28,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=7.2",
-    "nikic/php-parser": "^4.19"
+    "php": ">=7.0",
+    "nikic/php-parser": "^4.17"
   },
   "require-dev": {
     "illuminate/database": "^7.0",

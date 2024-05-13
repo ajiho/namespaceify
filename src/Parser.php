@@ -2,6 +2,7 @@
 
 namespace ajiho\namespaceify;
 
+use Closure;
 use PhpParser\Error;
 use PhpParser\Node;
 use PhpParser\NodeFinder;
@@ -173,7 +174,7 @@ class Parser
         });
     }
 
-    public function getPhpFileContent($directory, \Closure $callback)
+    public function getPhpFileContent($directory, Closure $callback)
     {
         $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
         $autoloadFileRealpath = realpath($this->filename);
