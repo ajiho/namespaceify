@@ -1,0 +1,38 @@
+{
+  "name": "ajiho/namespaceify",
+  "description": "Used to solve global function conflicts",
+  "keywords": [
+    "php",
+    "parser",
+    "namespace",
+    "php-scoper",
+    "scoper",
+    "helpers",
+    "functions"
+  ],
+  "homepage": "https://github.com/ajiho/namespaceify",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ajiho\\namespaceify\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ajiho",
+      "email": "lujiahao@88.com",
+      "homepage": "https://gitee.com/ajiho",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2",
+    "nikic/php-parser": "^4.19"
+  },
+  "require-dev": {
+    "illuminate/database": "^7.0",
+    "cakephp/core": "~4.3.0"
+  }
+}
